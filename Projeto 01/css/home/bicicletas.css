@@ -60,7 +60,7 @@
   color: #595959;
 }
 
-/**Media query*/
+/**Media query**/
 @media screen and (max-width: 800px) {
   .bicicletas h2 {
     font-size: 42px;
