@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  display: block;
+}
+img[src$=".jpg"] {
+  width: 100%;
+}
+
+h1, h2, h3, ul, p, blockquote {
+  margin: 0px;
+}
+
+ul, blockquote {
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
