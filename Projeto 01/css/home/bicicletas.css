@@ -49,6 +49,10 @@
   background: #ffbb00;
 }
 
+.bicicletas-container .bicicletas-item:hover h3:before {
+  width: 24px;
+}
+
 .bicicletas-container .bicicletas-item p {
   margin-left: 20px;
 }
@@ -60,7 +64,7 @@
   color: #595959;
 }
 
-/**Media query**/
+/**Media query*/
 @media screen and (max-width: 800px) {
   .bicicletas h2 {
     font-size: 42px;

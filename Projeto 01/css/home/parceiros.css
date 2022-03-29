@@ -1,7 +1,4 @@
 .parceiros {
-  max-width: 1200px;
-  margin-left: 40px;
-  margin-right: 40px;
   padding-bottom: 120px;
 }
 
@@ -17,11 +14,33 @@
   display:flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
   padding: 24px 12px;
+  min-height: 52px;
+  min-width: 145px;
+  border-left: 2px solid #ededed;
 }
+
+.parceiros-marcas div:first-child {
+ border-left: none;
+}
+
+.parceiros-marcas:first-child div {
+  border-bottom: 2px solid #ededed;
+}
+
 /**Media query**/
 @media screen and (max-width: 950px) {
   .parceiros-marcas {
    flex-direction: column;
+  }
+
+  .parceiros-marcas div {
+    border-left: none;
+    border-bottom: 2px solid #ededed;
+  }
+
+  .parceiros-marcas:last-child div:last-child { 
+    border-bottom: none;
   }
 }

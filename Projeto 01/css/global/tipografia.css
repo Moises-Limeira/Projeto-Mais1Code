@@ -5,11 +5,28 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.texto-pequeno {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.texto-pequeno-r {
+ font-weight: 400;
+}
+
 .texto-medio {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-weight: 400;
   line-height: 1.5;
+}
+
+.texto-medio-r {
+  font-weight: 400;
+}
+
+.texto-medio-m {
+  font-weight: 500;
 }
 .texto-decorativo {
   font-weight: 600;
@@ -25,6 +42,10 @@
 
   .texto-medio {
     font-size: 18px;
+  }
+
+  .texto-decorativo {
+    font-size: 24px;
   }
 }
 
